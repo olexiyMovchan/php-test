@@ -14,11 +14,13 @@ if($controller->isCreate()) {
     $controller->createUser($_GET['name'],$_GET['email'],$_GET['password']);
 }
 
-
 if($controller->isCreate()) {
     $controller->createUser($_GET['name'],$_GET['email'],$_GET['password']);
 }
 
+if($controller->isCreate()) {
+    $controller->createUser($_GET['name'],$_GET['email'],$_GET['password']);
+}
 
 if($controller->isCreate()) {
     $controller->createUser($_GET['name'],$_GET['email'],$_GET['password']);
